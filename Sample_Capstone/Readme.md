@@ -1,6 +1,6 @@
 # Demo
 
-Make a one-minute demo of your project
 
 
-![Your Awsome GIF](/demo/fig/demo.gif)
+
+![Make a one-minute demo of your project](/demo/fig/demo.gif)
