@@ -1,6 +1,4 @@
 # Demo
 
 
-
-
-![Make a one-minute demo of your project](/demo/fig/demo.gif)
+![Animated GIF](https://example.com/path/to/your/gif/file.gif)
