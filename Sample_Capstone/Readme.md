@@ -1,3 +1,3 @@
 # Demo
 
-[Watch the Video](/Sample_Capstone/demo/fig/video.mp4")
+[Watch the Video](../Sample_Capstone/demo/fig/video.mp4)
