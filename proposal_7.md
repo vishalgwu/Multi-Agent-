@@ -1,34 +1,19 @@
-import json
-import os
-import shutil
+
+# Capstone Proposal
+## NewsNet Agents - AI agents forming a network to process news
+### Proposed by: Fulsundar Vishal
+#### Email: vishal.fulsundar@gwu.edu
+#### Advisor: Amir Jafari
+#### The George Washington University, Washington DC  
+#### Data Science Program
 
 
-def save_to_json(data, output_file_path):
-    with open(output_file_path, 'w') as output_file:
-        json.dump(data, output_file, indent=2)
-
-
-data_to_save = \
-    {
-        # -----------------------------------------------------------------------------------------------------------------------
-        "Version":
-            """7""",
-        # -----------------------------------------------------------------------------------------------------------------------
-        "Year":
-            """2025""",
-        # -----------------------------------------------------------------------------------------------------------------------
-        "Semester":
-            """Summer""",
-        # -----------------------------------------------------------------------------------------------------------------------
-        "project_name":
-            """NewsNet Agents - AI agents forming a network to process news""",
-        # -----------------------------------------------------------------------------------------------------------------------
-        "Objective":
-            """ 
+## 1 Objective:  
+ 
              
-            The objective of this project is to develop an intelligent multi-agent AI system that delivers concise, personalized, and bias-aware news summaries in real time. Designed to tackle the challenges of information overload, misinformation, and user attention fatigue, the system leverages a team of autonomous LLM-powered agents â€” each specializing in a distinct task across the news pipeline.
+            The objective of this project is to develop an intelligent multi-agent AI system that delivers concise, personalized, and bias-aware news summaries in real time. Designed to tackle the challenges of information overload, misinformation, and user attention fatigue, the system leverages a team of autonomous LLM-powered agents — each specializing in a distinct task across the news pipeline.
 
-            Core agents in the system include a News Fetcher Agent to source live headlines, a Summarizer Agent to distill long-form articles into brief 2â€“3 sentence overviews, a Personalization Agent to tailor news feeds based on user interests, and optional modules such as Bias Detector, Voice Narrator, and Fact-Checker agents for added credibility and accessibility.
+            Core agents in the system include a News Fetcher Agent to source live headlines, a Summarizer Agent to distill long-form articles into brief 2–3 sentence overviews, a Personalization Agent to tailor news feeds based on user interests, and optional modules such as Bias Detector, Voice Narrator, and Fact-Checker agents for added credibility and accessibility.
 
             The system offers multi-source integration via RSS feeds, APIs (e.g., NewsAPI, NYT), and social channels (e.g., Reddit, Twitter), enabling users to receive coherent, multi-perspective daily digests through a web dashboard or messaging interface like Telegram.
 
@@ -39,12 +24,15 @@ data_to_save = \
             - Supporting accessibility through voice-enabled summaries and multilingual delivery.
             - Providing a distraction-free, personalized news experience through topic filtering, time limits, and clean UI delivery.
 
-            The project envisions a future-ready, human-centric news assistant â€” serving as both a curator and a conscience in the evolving information landscape.
+            The project envisions a future-ready, human-centric news assistant — serving as both a curator and a conscience in the evolving information landscape.
     
-            """,
-        # -----------------------------------------------------------------------------------------------------------------------
-        "Dataset":
-            """
+            
+
+![Figure 1: Example figure](2025_Summer_7.png)
+*Figure 1: Caption*
+
+## 2 Dataset:  
+
             The dataset for fine-tuning and agent-level customization is still to be 
             finalized (TBD). However, the system will primarily rely on a combination
              of publicly available datasets and real-time data streams. 
@@ -87,75 +75,76 @@ data_to_save = \
                 
                 
               
-            """,
-        # -----------------------------------------------------------------------------------------------------------------------
-        "Rationale":
-            """
+            
+
+## 3 Rationale:  
+
             Generative AI (genAI) technology offers a novel approach to supporting IPE given that routinely the diversity of team member participants is limited, and some fields are under-represented in IPE training but influential in "real world" teams. By using LLM-based chatbots for this educational
              interventions, there is potential to both improve how learning experiences are delivered and  enhance student post-IPE performance . In this project, we will explore how an AI-driven team collaboration can  act as A news 
              Agent.
-            """,
-        # -----------------------------------------------------------------------------------------------------------------------
-        "Approach":
-            """
+            
+
+## 4 Approach:  
+
            The development of the Short News Multi-Agent AI System will be executed in structured phases, each targeting a critical component of the overall system functionality:
         
-            **Phase 1 â€“ Requirement Analysis**: 
+            **Phase 1 – Requirement Analysis**: 
             Define user personas, topic preferences, and key features such as summarization depth, delivery modes (text/audio), bias detection level, and supported platforms (web, chat interface).
         
-            **Phase 2 â€“ Agent Architecture Design**: 
+            **Phase 2 – Agent Architecture Design**: 
             Design modular agent roles including News Fetcher, Summarizer, Bias Detector, Fact-Checker, Personalization Agent, and Voice Reader. Determine inter-agent communication and task delegation flows.
         
-            **Phase 3 â€“ Dataset Integration & Fine-Tuning**: 
+            **Phase 3 – Dataset Integration & Fine-Tuning**: 
             Collect and preprocess both static (e.g., CNN/DailyMail, BBC) and live (e.g., NewsAPI, Google RSS) news data. Fine-tune summarization and bias detection models using labeled datasets and apply RAG where needed.
         
-            **Phase 4 â€“ Agent Development**: 
+            **Phase 4 – Agent Development**: 
             Implement each agent using LLMs and supporting APIs. Integrate them into a collaborative pipeline using tools like LangChain, FastAPI, or custom orchestration scripts.
         
-            **Phase 5 â€“ System Testing & Evaluation**: 
+            **Phase 5 – System Testing & Evaluation**: 
             Evaluate performance across key metrics: summary quality (fluency, coherence, factuality), bias detection accuracy, personalization relevance, and system response time.
         
-            **Phase 6 â€“ User Interface & Delivery Integration**: 
+            **Phase 6 – User Interface & Delivery Integration**: 
             Build a clean UI or messaging interface (e.g., Streamlit or Telegram bot) to present news digests. Optionally, enable voice output using TTS tools and multilingual support.
         
-            **Phase 7 â€“ Real-Time Deployment & Feedback Loop**: 
+            **Phase 7 – Real-Time Deployment & Feedback Loop**: 
             Deploy the system in real-time, allowing for continuous feedback collection, usage analytics, and future updates via retraining or agent tuning.
-            """,
-        # -----------------------------------------------------------------------------------------------------------------------
-        "Timeline":
-            """
+            
+
+## 5 Timeline:  
+
              This is a projected timeline for the development and evaluation of the Short News Multi-Agent AI System:
 
-            **Weeks 1â€“2**: 
+            **Weeks 1–2**: 
             Requirement analysis, agent role definition, and setup of core tools (e.g., Git, APIs, model libraries, Streamlit/Telegram interface). Finalize project scope and datasets.
         
-            **Weeks 3â€“5**: 
+            **Weeks 3–5**: 
             Develop initial versions of the News Fetcher, Summarizer, and Personalization agents. Test with static datasets (e.g., CNN/DailyMail, BBC News).
         
-            **Weeks 6â€“8**: 
+            **Weeks 6–8**: 
             Integrate live news sources (e.g., NewsAPI, RSS) and implement Bias Detector and Fact-Checker agents. Begin inter-agent communication and pipeline orchestration.
         
-            **Weeks 9â€“11**: 
+            **Weeks 9–11**: 
             Conduct iterative testing on the full agent workflow. Evaluate output quality (summarization, bias detection, fact-checking) and optimize model performance.
         
-            **Weeks 12â€“13**: 
+            **Weeks 12–13**: 
             Build user interface (Streamlit web app or Telegram bot). Integrate personalization logic and optional voice/audio delivery features.
         
-            **Weeks 14â€“15**: 
+            **Weeks 14–15**: 
             Perform usability testing and gather user feedback. Refine based on user experience and interaction data.
         
             **Week 16**: 
             Finalize documentation, project report, and system demonstration for presentation or deployment.
-                    """,
-        # -----------------------------------------------------------------------------------------------------------------------
-        "Expected Number Students":
-            """
+                    
+
+
+## 6 Expected Number Students:  
+
             This project is doing individually given the scope and need for interdisciplinary collaboration we will in future.
             
-            """,
-        # -----------------------------------------------------------------------------------------------------------------------
-        "Possible Issues":
-            """
+            
+
+## 7 Possible Issues:  
+
             Potential challenges for this project include:
                 **Limited Access to Real-Time News Data**: Some APIs (e.g., NewsAPI, NYTimes) may impose rate limits or require paid access for full article content, potentially impacting the real-time capabilities of the system.
 
@@ -170,20 +159,10 @@ data_to_save = \
                 **User Trust and Explainability**: Users may question the credibility of AI-generated summaries. Providing explainability (e.g., source highlighting, bias score justification) will be key to adoption and trust.
             
                 **Optional Voice/Chatbot Integration**: Converting text into audio or integrating chat interfaces (Telegram, WhatsApp) may present compatibility issues, especially across platforms or languages.
-                        """,
+                        
 
-        # -----------------------------------------------------------------------------------------------------------------------
-        "Proposed by": "Fulsundar Vishal",
-        "Proposed by email": "vishal.fulsundar@gwu.edu",
-        "instructor": "Amir Jafari",
-        "instructor_email": "ajafari@gmail.com",
-        "github_repo": "https://github.com/vishalgwu/Multi-Agent-",
-        # -----------------------------------------------------------------------------------------------------------------------
-    }
 
-output_dir = os.getcwd()
-output_file_path = os.path.join(output_dir, "input.json")
-save_to_json(data_to_save, output_file_path)
-
-#shutil.copy('json_gen.py', output_file_path)
-print(f"Data saved to {output_file_path}")
+## Contact
+- Author: Amir Jafari
+- Email: [ajafari@gmail.com](mailto:ajafari@gmail.com)
+- GitHub: [https://github.com/vishalgwu/Multi-Agent-](https://github.com/https://github.com/vishalgwu/Multi-Agent-)
