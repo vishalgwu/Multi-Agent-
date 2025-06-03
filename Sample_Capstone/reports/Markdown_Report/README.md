@@ -100,9 +100,12 @@ Our system will include both **web-based** and **chatbot** interfaces for everyd
 ## Submitted By
 
 - **Student Name**: Fulsundar Vishal
+- - **Email-id**: vishal.fulsundar@gwu.edu
 - **Course**: Data science- Deep learning
 - **Institution**: GWU
 - **Submitted To**: Amir jafari
+- 
+- 
 
 ---
 
