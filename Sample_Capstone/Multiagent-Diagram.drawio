@@ -1,0 +1,146 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.3">
+  <diagram name="Page-1" id="9UEalfop3BoXN9nQWVld">
+    <mxGraphModel dx="2192" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-deianl09rEsUmeogMLg-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-1" target="-deianl09rEsUmeogMLg-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-1" value="&lt;div&gt;user interface&lt;/div&gt;&lt;div&gt;Strem-lit or telegrame bot&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-99" target="-deianl09rEsUmeogMLg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-4" target="-deianl09rEsUmeogMLg-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="229.53846153846143" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-4" value="News Retrieval&amp;nbsp;&lt;div&gt;Master&lt;/div&gt;&lt;div&gt;&amp;nbsp;Agent&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="190" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-5" target="-deianl09rEsUmeogMLg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-5" value="Filtering agent&lt;div&gt;sport/geopolitical/&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;market&lt;/span&gt;&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-6" target="-deianl09rEsUmeogMLg-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-6" value="Summarize agent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-26" target="-deianl09rEsUmeogMLg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-7" target="-deianl09rEsUmeogMLg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-7" value="Web serch agent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="20" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-26" target="-deianl09rEsUmeogMLg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-8" value="News api agent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="20" width="90" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-9" target="-deianl09rEsUmeogMLg-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-9" target="-deianl09rEsUmeogMLg-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-9" target="-deianl09rEsUmeogMLg-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-10" value="Google news agnet/ RSS agent&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="20" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-26" target="-deianl09rEsUmeogMLg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-38" target="-deianl09rEsUmeogMLg-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-38" value="Reddit scraper" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="15" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-45" target="-deianl09rEsUmeogMLg-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-45" value="fact checker&lt;div&gt;GPT-4o/claude&lt;/div&gt;&lt;div&gt;politifact&amp;nbsp;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-26" value="Co-Ordinator agent&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-76" target="-deianl09rEsUmeogMLg-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-76" value="BeautifulSoup parser" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="20" y="520" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-77" target="-deianl09rEsUmeogMLg-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-77" value="GPT-4o" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-80" value="sentiment analysis with&lt;div&gt;RoBERT model&lt;/div&gt;&lt;div&gt;hugging face&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="250" y="520" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-87" value="Textblob" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="580" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-88" value="VADER" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-94" target="-deianl09rEsUmeogMLg-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-94" value="Voice agent&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-97" value="user interface/telegrame bot or email&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-99" value="content cleaber agent/ remove unnesseary addes&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="-deianl09rEsUmeogMLg-9" target="-deianl09rEsUmeogMLg-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-deianl09rEsUmeogMLg-9" value="Bias detect agent&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
