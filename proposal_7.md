@@ -11,9 +11,9 @@
 ## 1 Objective:  
  
              
-            The objective of this project is to develop an intelligent multi-agent AI system that delivers concise, personalized, and bias-aware news summaries in real time. Designed to tackle the challenges of information overload, misinformation, and user attention fatigue, the system leverages a team of autonomous LLM-powered agents — each specializing in a distinct task across the news pipeline.
+            The objective of this project is to develop an intelligent multi-agent AI system that delivers concise, personalized, and bias-aware news summaries in real time. Designed to tackle the challenges of information overload, misinformation, and user attention fatigue, the system leverages a team of autonomous LLM-powered agents ï¿½ each specializing in a distinct task across the news pipeline.
 
-            Core agents in the system include a News Fetcher Agent to source live headlines, a Summarizer Agent to distill long-form articles into brief 2–3 sentence overviews, a Personalization Agent to tailor news feeds based on user interests, and optional modules such as Bias Detector, Voice Narrator, and Fact-Checker agents for added credibility and accessibility.
+            Core agents in the system include a News Fetcher Agent to source live headlines, a Summarizer Agent to distill long-form articles into brief 2ï¿½3 sentence overviews, a Personalization Agent to tailor news feeds based on user interests, and optional modules such as Bias Detector, Voice Narrator, and Fact-Checker agents for added credibility and accessibility.
 
             The system offers multi-source integration via RSS feeds, APIs (e.g., NewsAPI, NYT), and social channels (e.g., Reddit, Twitter), enabling users to receive coherent, multi-perspective daily digests through a web dashboard or messaging interface like Telegram.
 
@@ -24,11 +24,12 @@
             - Supporting accessibility through voice-enabled summaries and multilingual delivery.
             - Providing a distraction-free, personalized news experience through topic filtering, time limits, and clean UI delivery.
 
-            The project envisions a future-ready, human-centric news assistant — serving as both a curator and a conscience in the evolving information landscape.
+            The project envisions a future-ready, human-centric news assistant ï¿½ serving as both a curator and a conscience in the evolving information landscape.
     
             
 
-![Figure 1: Example figure](2025_Summer_7.png)
+![ Multi-Agent diagrame](https://github.com/vishalgwu/Multi-Agent-/blob/main/Multi-agent-Diagram.drawio.png)
+
 *Figure 1: Caption*
 
 ## 2 Dataset:  
@@ -88,25 +89,25 @@
 
            The development of the Short News Multi-Agent AI System will be executed in structured phases, each targeting a critical component of the overall system functionality:
         
-            **Phase 1 – Requirement Analysis**: 
+            **Phase 1 ï¿½ Requirement Analysis**: 
             Define user personas, topic preferences, and key features such as summarization depth, delivery modes (text/audio), bias detection level, and supported platforms (web, chat interface).
         
-            **Phase 2 – Agent Architecture Design**: 
+            **Phase 2 ï¿½ Agent Architecture Design**: 
             Design modular agent roles including News Fetcher, Summarizer, Bias Detector, Fact-Checker, Personalization Agent, and Voice Reader. Determine inter-agent communication and task delegation flows.
         
-            **Phase 3 – Dataset Integration & Fine-Tuning**: 
+            **Phase 3 ï¿½ Dataset Integration & Fine-Tuning**: 
             Collect and preprocess both static (e.g., CNN/DailyMail, BBC) and live (e.g., NewsAPI, Google RSS) news data. Fine-tune summarization and bias detection models using labeled datasets and apply RAG where needed.
         
-            **Phase 4 – Agent Development**: 
+            **Phase 4 ï¿½ Agent Development**: 
             Implement each agent using LLMs and supporting APIs. Integrate them into a collaborative pipeline using tools like LangChain, FastAPI, or custom orchestration scripts.
         
-            **Phase 5 – System Testing & Evaluation**: 
+            **Phase 5 ï¿½ System Testing & Evaluation**: 
             Evaluate performance across key metrics: summary quality (fluency, coherence, factuality), bias detection accuracy, personalization relevance, and system response time.
         
-            **Phase 6 – User Interface & Delivery Integration**: 
+            **Phase 6 ï¿½ User Interface & Delivery Integration**: 
             Build a clean UI or messaging interface (e.g., Streamlit or Telegram bot) to present news digests. Optionally, enable voice output using TTS tools and multilingual support.
         
-            **Phase 7 – Real-Time Deployment & Feedback Loop**: 
+            **Phase 7 ï¿½ Real-Time Deployment & Feedback Loop**: 
             Deploy the system in real-time, allowing for continuous feedback collection, usage analytics, and future updates via retraining or agent tuning.
             
 
@@ -114,22 +115,22 @@
 
              This is a projected timeline for the development and evaluation of the Short News Multi-Agent AI System:
 
-            **Weeks 1–2**: 
+            **Weeks 1ï¿½2**: 
             Requirement analysis, agent role definition, and setup of core tools (e.g., Git, APIs, model libraries, Streamlit/Telegram interface). Finalize project scope and datasets.
         
-            **Weeks 3–5**: 
+            **Weeks 3ï¿½5**: 
             Develop initial versions of the News Fetcher, Summarizer, and Personalization agents. Test with static datasets (e.g., CNN/DailyMail, BBC News).
         
-            **Weeks 6–8**: 
+            **Weeks 6ï¿½8**: 
             Integrate live news sources (e.g., NewsAPI, RSS) and implement Bias Detector and Fact-Checker agents. Begin inter-agent communication and pipeline orchestration.
         
-            **Weeks 9–11**: 
+            **Weeks 9ï¿½11**: 
             Conduct iterative testing on the full agent workflow. Evaluate output quality (summarization, bias detection, fact-checking) and optimize model performance.
         
-            **Weeks 12–13**: 
+            **Weeks 12ï¿½13**: 
             Build user interface (Streamlit web app or Telegram bot). Integrate personalization logic and optional voice/audio delivery features.
         
-            **Weeks 14–15**: 
+            **Weeks 14ï¿½15**: 
             Perform usability testing and gather user feedback. Refine based on user experience and interaction data.
         
             **Week 16**: 
@@ -162,7 +163,8 @@
                         
 
 
-## Contact
-- Author: Amir Jafari
+## Contact :
+- Student : Fulsundar Vishal
+- instructor: Amir Jafari
 - Email: [ajafari@gmail.com](mailto:ajafari@gmail.com)
 - GitHub: [https://github.com/vishalgwu/Multi-Agent-](https://github.com/https://github.com/vishalgwu/Multi-Agent-)
